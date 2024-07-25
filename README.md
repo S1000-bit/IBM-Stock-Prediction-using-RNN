@@ -1,1 +1,11 @@
-# IBM-Stock-Prediction-using-RNN
+# IBM_StockPrediction
+
+Our primary objective in this project is to pursue stock prediction by using three different neural network architectures: a Feed-forward Neural Network (FFN) with the adoption of a sliding window approach, a Recurrent Neural Network (RNN), and a Long Short-Term Memory (LSTM) network. Kaggle is the platform that we use as the foundation of our study due to the robustness of its dataset.
+
+The first model, the Feed-forward Neural Network, using a sliding window design. This method involves dividing the data into a constant-shaped window where each window will act as an input-output pair for training. Along with the data, by iteratively sliding the window along the dataset, the model will capture temporal patterns, eventually predicting historical trends.
+
+Moving away from the FFN, we shift to the Recurrent Neural Network (RNN). An innate feature of RNNs gives them the ability to store information from the previous time steps rather than losing them in time and to be able to memorize which data types like time series RNNs are designed to work with. This innate feature of the RNN helps it to detect complex patterns and dependencies within the dataset, thereby upgrading its predictive capabilities.
+
+Finally, we use the Long Short-Term Memory (LSTM) network, a subversion of RNNs designed specifically to solve problems related to the vanishing gradient problem. Through spinning in memory elements and possible gating mechanisms, LSTMs are bound to be the ones crazy about long-range relationships throughout the sequential data. As a result, they are often superior to conventional RNNs in tasks requiring the simulation of temporal dynamics, making them ideal candidates for stock prediction activities.During our extensive investigation, we make a meticulous comparison between these three models, comparing various aspects like prediction accuracy, computational efficiency, and robustness of these models against stock market fluctuations. 
+
+By making a detailed examination of the strengths and weaknesses of each method, our aim is to acquire a deeper understanding of the complex nature of stock price predictions, thus paving the way for more informed decision-making in financial markets domain.
